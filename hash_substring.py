@@ -35,5 +35,5 @@ def get_occurrences (patern, text):
         cutoff = cutoff + location+1
     return occurances
 
-if _name_ == '_main_':
+if _name_ == '__main__':
     print_occurrences(get_occurrences(*read_input()))
